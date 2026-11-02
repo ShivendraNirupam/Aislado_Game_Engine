@@ -1,0 +1,20 @@
+# Build output
+build/
+build-*/
+bin/
+out/
+
+# Tooling caches
+.cache/
+compile_commands.json
+CMakeUserPresets.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# Keep the shared VS Code settings, ignore everything else in .vscode
+.vscode/*
+!.vscode/settings.json
